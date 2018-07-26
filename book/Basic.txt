@@ -1,0 +1,34 @@
+度量分类方法的性能
+
+1. 拥有能够度量实用性而不是原始准确度的模型性能评价方法是至关重要的。（工具：混淆矩阵）
+
+2. 混淆矩阵(Confusion Matrix)是一张二维表，它按照预测值是否匹配数据的真实值来对预测值进行分类。
+
+               预测类别        (usually A - 真 B - 假)
+              A        B
+        A    TP       FN
+实际类别   
+        B    FP       TN
+
+
+TP --- True Positive
+FP --- False Positive
+FN --- False Negative
+TN --- True Negative
+
+3 准确度 (Accuracy)
+
+               TP + TN
+准确度:    -----------------
+          TP + TN + FP + FN
+
+CrossTable()
+
+Cell Content
++-----------------------+
+|                      N|
+|chi-square contribution|
+|          N / Row Total|
+|          N / Col Total|
+|        N / Table Total|
++-----------------------+
