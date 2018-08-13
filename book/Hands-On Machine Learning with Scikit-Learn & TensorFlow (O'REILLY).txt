@@ -6,3 +6,51 @@
 A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E.
 —Tom Mitchell, 1997
 
+
+
+2. There are four major categories: supervised learning, unsupervised learning, semisupervised learning, and Reinforcement Learn‐ ing.
+
+
+
+3. Supervised Learning
+Supervised learning, the training data you feed to the algorithm includes the desired
+solutions, called labels
+
+1) A typical supervised learning task is classification.
+2) Another typical task is to predict a target numeric value, such as the price of a car, given a set of features (mileage, age, brand, etc.) called predictors. This sort of task is called regression 
+
+some of the most important supervised learning algorithms (covered in this book):
+• k-Nearest Neighbors
+• Linear Regression
+• Logistic Regression
+• Support Vector Machines (SVMs)
+• Decision Trees and Random Forests
+• Neural networks2
+
+
+
+
+4. Unsupervised Learning
+In unsupervised learning, as you might guess, the training data is unlabeled
+
+some of the most important unsupervised learning algorithms:
+• Clustering
+— k-Means
+— Hierarchical Cluster Analysis (HCA) — Expectation Maximization
+• Visualization and dimensionality reduction — Principal Component Analysis (PCA) — Kernel PCA
+— Locally-Linear Embedding (LLE)
+— t-distributed Stochastic Neighbor Embedding (t-SNE)
+• Association rule learning
+— Apriori — Eclat
+
+
+
+
+
+
+
+
+
+
+
+
