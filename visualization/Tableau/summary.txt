@@ -1,0 +1,5 @@
+1. dashboard gallery
+1) 	The World Cup Effect 
+https://public.tableau.com/en-us/s/gallery/world-cup-effect?gallery=votd
+2)  House Price Trend
+https://public.tableau.com/profile/allen.john6422#!/vizhome/HousePriceTrendAnalysis/Dashboard 
